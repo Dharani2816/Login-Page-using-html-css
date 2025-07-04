@@ -1,6 +1,6 @@
 body{
     background-image:url("beautiful-mountains-landscape.jpg");
-   /* background-repeat: no-repeat;*/
+   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
