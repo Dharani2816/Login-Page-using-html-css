@@ -1,6 +1,6 @@
 body{
-    background-image:url("beautiful-mountains-landscape.jpg");
-   /* background-repeat: no-repeat;*/
+    background-image:url("abstract-simple-colors-8k-1920x1080.jpg");
+   background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
     display: flex;
@@ -8,10 +8,11 @@ body{
     align-items: center;
     flex-direction: column;
     min-height:100vh;
+    color: white;
 }
 
 main{
-    font-family: JetBrains Mono;
+    font-family:'Poppins';
     font-size:large;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);  /* lighter & more transparent */
@@ -25,15 +26,15 @@ backdrop-filter: blur(5px);
     padding:20px;
 }
 #a,#b{
-      border: none;
-   border-bottom-style:solid;
+   border-style:solid;
     color:black;
+    border-radius:22px;
     outline: none;
      width: 400px;
     height: 40px;
-    font-family: JetBrains Mono;
-    font-size:large;
-     background-color: rgba(255, 255, 255, 0);
+    font-family: 'Poppins';
+    font-size:medium;
+     background-color: rgb(255, 255, 255);
      padding:20px auto;
      margin: 10px auto;
      caret-color: black;
@@ -51,16 +52,19 @@ backdrop-filter: blur(5px);
 button{
 width: 400px;
 height: 40px;
- background-color: white;
+background: linear-gradient(to right, #ff0057, #7c00ff);
  margin: 20px auto;
  border-style: solid;
     border-radius: 22px;
     border-color:white;
-font-family: JetBrains Mono;
+font-family: 'Poppins';
 font-size: large;
+color: white;
 }
 button:hover{
-    background-color: rgba(255, 255, 255, 0.499);
+    background-color:linear-gradient(to right, #ff0057, #7c00ff);
+    opacity: 50%;
+    border-color: white;
 }
 #a,#b,#c,#d{
     margin: 10px auto;
@@ -69,7 +73,9 @@ button:hover{
 #Forget{
     display: inline-block;
 }
-
+#e,#d{
+    color: blue;
+}
 #d:hover,#e:hover{
     color:white
 }
