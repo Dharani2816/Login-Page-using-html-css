@@ -41,7 +41,7 @@ backdrop-filter: blur(5px);
 }
 
 #a:focus,#b:focus{
-    color:blue;
+    color:black;
 }
 #ak{
     border-style:solid;
